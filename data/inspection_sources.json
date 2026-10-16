@@ -1,0 +1,117 @@
+{
+  "structure_number_008": "04 0236",
+  "caltrans_bridge_no": "4-236",
+  "location_009": "01-HUM-101-R52.89",
+  "facility_carried_007": "PAINTER ST",
+  "features_desc_006a": "US HIGHWAY 101",
+  "file_years": [
+    2012,
+    2025
+  ],
+  "items_kept": {
+    "DECK_COND_058": "deck",
+    "SUPERSTRUCTURE_COND_059": "superstructure",
+    "SUBSTRUCTURE_COND_060": "substructure"
+  },
+  "citation": "Federal Highway Administration (2025). National Bridge Inventory, ASCII/delimited State files. U.S. Department of Transportation. https://www.fhwa.dot.gov/bridge/nbi/ascii.cfm",
+  "files": {
+    "2012": {
+      "url": "https://www.fhwa.dot.gov/bridge/nbi/2012/delimited/CA12.txt",
+      "file": "CA12.txt",
+      "bytes": 10893992,
+      "md5": "fd05073fb9beb7c0af380a0904b84901",
+      "downloaded_now": false
+    },
+    "2013": {
+      "url": "https://www.fhwa.dot.gov/bridge/nbi/2013/delimited/CA13.txt",
+      "file": "CA13.txt",
+      "bytes": 11621408,
+      "md5": "aa82d0751f417944060563a75d8c047e",
+      "downloaded_now": true
+    },
+    "2014": {
+      "url": "https://www.fhwa.dot.gov/bridge/nbi/2014/delimited/CA14.txt",
+      "file": "CA14.txt",
+      "bytes": 11851343,
+      "md5": "63648cdb89d4a0fa4bea9b63265c507e",
+      "downloaded_now": true
+    },
+    "2015": {
+      "url": "https://www.fhwa.dot.gov/bridge/nbi/2015/delimited/CA15.txt",
+      "file": "CA15.txt",
+      "bytes": 11097042,
+      "md5": "7b05ac3243c5519eb832763b5cb020c5",
+      "downloaded_now": true
+    },
+    "2016": {
+      "url": "https://www.fhwa.dot.gov/bridge/nbi/2016/delimited/CA16.txt",
+      "file": "CA16.txt",
+      "bytes": 11205252,
+      "md5": "1696957aac7c76a54fb8cc91dad91617",
+      "downloaded_now": true
+    },
+    "2017": {
+      "url": "https://www.fhwa.dot.gov/bridge/nbi/2017/delimited/CA17.txt",
+      "file": "CA17.txt",
+      "bytes": 11520874,
+      "md5": "66113f5f80eb75701fad4f7c81c8c899",
+      "downloaded_now": true
+    },
+    "2018": {
+      "url": "https://www.fhwa.dot.gov/bridge/nbi/2018/delimited/CA18.txt",
+      "file": "CA18.txt",
+      "bytes": 11559602,
+      "md5": "1d188d7f8ae28f89131c080a15405ca5",
+      "downloaded_now": true
+    },
+    "2019": {
+      "url": "https://www.fhwa.dot.gov/bridge/nbi/2019/delimited/CA19.txt",
+      "file": "CA19.txt",
+      "bytes": 10631849,
+      "md5": "0111b189473c7423be9c3ad0056027be",
+      "downloaded_now": true
+    },
+    "2020": {
+      "url": "https://www.fhwa.dot.gov/bridge/nbi/2020/delimited/CA20.txt",
+      "file": "CA20.txt",
+      "bytes": 10625429,
+      "md5": "348e47a52a57954a5ef4694ab4c851fe",
+      "downloaded_now": true
+    },
+    "2021": {
+      "url": "https://www.fhwa.dot.gov/bridge/nbi/2021/delimited/CA21.txt",
+      "file": "CA21.txt",
+      "bytes": 10615745,
+      "md5": "34cd83ca9ba7fe27fadcca3e102b32f2",
+      "downloaded_now": true
+    },
+    "2022": {
+      "url": "https://www.fhwa.dot.gov/bridge/nbi/2022/delimited/CA22.txt",
+      "file": "CA22.txt",
+      "bytes": 10645292,
+      "md5": "a2d07ba7c97cb08e3f2a58faca4f3195",
+      "downloaded_now": true
+    },
+    "2023": {
+      "url": "https://www.fhwa.dot.gov/bridge/nbi/2023/delimited/CA23.txt",
+      "file": "CA23.txt",
+      "bytes": 10648457,
+      "md5": "cb2968a59236b089a52c3ade7ec758f0",
+      "downloaded_now": true
+    },
+    "2024": {
+      "url": "https://www.fhwa.dot.gov/bridge/nbi/2024/delimited/CA24.txt",
+      "file": "CA24.txt",
+      "bytes": 10662291,
+      "md5": "e1a1e308092ec73f46a4128c71aabfae",
+      "downloaded_now": true
+    },
+    "2025": {
+      "url": "https://www.fhwa.dot.gov/bridge/nbi/2025/delimited/CA25.txt",
+      "file": "CA25.txt",
+      "bytes": 10710461,
+      "md5": "e2492481640640e1a8ef7846c7f3aafe",
+      "downloaded_now": true
+    }
+  }
+}

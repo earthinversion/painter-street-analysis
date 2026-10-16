@@ -1,0 +1,76 @@
+{
+  "figure": {
+    "id": "painter-street",
+    "claim": "Response departures and amplitude-related frequency change do not independently establish earthquake damage.",
+    "audience": "Structural monitoring researchers",
+    "journal": "journal-neutral",
+    "manuscript_role": "result",
+    "placed_width_in": 7.2
+  },
+  "style": {
+    "minimum_effective_text_pt": 12,
+    "two_panel_layout": "not applicable; two upper panels and one full-width lower panel",
+    "flowchart_source": "not applicable",
+    "panel_label_profile": "lowercase-parenthetical",
+    "in_figure_title": false
+  },
+  "encodings": {
+    "semantic_colors": [
+      "reference=#FFFFFF",
+      "test=#0072B2",
+      "flagged=#D55E00"
+    ],
+    "redundant_encodings": [
+      "open reference circles, filled test circles, flagged triangles",
+      "inspection components use different markers and line styles"
+    ],
+    "shared_coordinates": [
+      "event membership shared by feature and frequency panels"
+    ]
+  },
+  "provenance": {
+    "source_data": [
+      "data/response_features.csv",
+      "data/mode_tracking.csv",
+      "data/inspection_by_file.csv"
+    ],
+    "transforms": [
+      "log10 PRA/CAV; weighted log-frequency fit; latest published rating per inspection"
+    ],
+    "exclusions": [
+      "Pre-2010 instrument configuration omitted from the 22-event analysis."
+    ],
+    "figure_data_export": "results/",
+    "caption_file": "figures/caption.md",
+    "alt_text_file": "figures/alt-text.md"
+  },
+  "panels": [
+    {
+      "id": "(a)",
+      "role": "result",
+      "question": "Which responses depart from the weak-motion reference?",
+      "data": "results/novelty.csv",
+      "encoding": "CAV x, PRA y, reference and flag markers",
+      "uncertainty": "Nominal 95% fitted Gaussian envelope",
+      "link_to_next": "Compare with amplitude dependence"
+    },
+    {
+      "id": "(b)",
+      "role": "result",
+      "question": "How does the tracked frequency depend on input amplitude?",
+      "data": "results/frequency_panel.csv and results/frequency_curve.csv",
+      "encoding": "Input PGA x, relative frequency y",
+      "uncertainty": "Approximate 95% coefficient band including covariance",
+      "link_to_next": "Compare with independent inspection history"
+    },
+    {
+      "id": "(c)",
+      "role": "observation",
+      "question": "What condition ratings were recorded?",
+      "data": "results/inspection.csv",
+      "encoding": "Inspection date x, component rating y",
+      "uncertainty": "Hollow symbols denote revisions at unchanged inspection date; no quantitative rating errors supplied",
+      "link_to_next": "Caption states attribution limits"
+    }
+  ]
+}

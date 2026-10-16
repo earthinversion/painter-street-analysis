@@ -1,0 +1,38 @@
+{
+  "novelty": {
+    "mean": [
+      -1.6192796187036727,
+      -1.2392657614260583
+    ],
+    "cov": [
+      [
+        0.014726880234367,
+        0.015166285532260718
+      ],
+      [
+        0.015166285532260718,
+        0.0801193860139738
+      ]
+    ],
+    "threshold_md2": 5.99146454710798,
+    "n_reference": 8,
+    "n_test": 14,
+    "n_novel_test": 12,
+    "n_novel_reference": 0
+  },
+  "changepoint": {
+    "n_events": 22,
+    "n_candidates": 21,
+    "event_variance_component_pct": 0.6511951242651001,
+    "max_abs_z": 1.9736649495124574,
+    "sidak_z_crit_fwer05": 3.0307393735524486,
+    "sidak_independence_approximation_p": 0.6473427432615795,
+    "n_supported_nominal": 1,
+    "n_supported_fwer": 0,
+    "n_supported_bonferroni": 0
+  },
+  "frequency_decline_pct": -5.532573825151484,
+  "reference_frequency_hz": 3.382945003487583,
+  "verification": "Passed comparisons with original saved analysis outputs",
+  "uncertainty_note": "Coefficient covariance included in figure band; conditional approximate intervals, not damage probabilities."
+}
