@@ -1,0 +1,19 @@
+{
+  "dataset": "Painter Street Overpass, CESMD CE89324; Caltrans 4-236; NBI 04 0236",
+  "source": "CESMD processed CGS/CSMIP records and FHWA California NBI files (2012\u20132025)",
+  "scope": "Derived measurements for 22 earthquakes (2012\u20132024). No waveform files.",
+  "files": {
+    "channel_inventory.csv": "f3ebf5e1c0a7e59657f251b54ec0baff75170e456d2ecc9e81bf6e7a8d4a3dc6",
+    "events.csv": "c2d21cdc73a61d15d5d691dc65681f25e91d22e932ac89efad9208b892368bf5",
+    "inspection.csv": "22adb1621347de191b7d89b24daa102e632f8d98ca14863f257e1b9c627e9702",
+    "inspection_by_file.csv": "9744641164cd9148c405c4fd57f64a18a333a8f10f7c2d79d5ef8b0279cb7b31",
+    "inspection_sources.json": "f22851b24f77b6b05f1a602c03f96de3b29d1f979636f9550254c12a430c1bb2",
+    "mode_tracking.csv": "9b3ef0d0395b8eeff638bc4f107eff2131ffc42923b3ebb991fe95c1f17e7bb1",
+    "predictor_config.json": "4bd41d171ab0eb5edb19c86c0344169f7ec329067c3e9f5895454fe58026e280",
+    "reference_results.json": "53eebc5bae47aa02a3774184a2673aa9fd7fa0b2080e2772d212196aed881c31",
+    "response_features.csv": "9d432b7137d3652acca203fe5ea0ec813cfec5665ed02982b7e48dbf8435e0f2",
+    "source_versions.json": "d155d9dc98b01ae229f6e7bf3c50e6295ef6efee0ee8a9bf95fba7b18edb52ab"
+  },
+  "waveform_retrieval_utc": "2026-09-21T01:57:58+00:00",
+  "waveform_retrieval_date_local": "2026-09-20"
+}

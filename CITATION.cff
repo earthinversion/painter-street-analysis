@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "Please cite this work and the original data and method sources."
+title: "Painter Street Overpass response analysis"
+type: software
+authors:
+  - family-names: Kumar
+    given-names: Utpal
+    affiliation: "Berkeley Seismological Laboratory, University of California, Berkeley"
+  - family-names: Mosalam
+    given-names: Khalid M.
+    affiliation: "Department of Civil and Environmental Engineering and Pacific Earthquake Engineering Research Center, University of California, Berkeley"
+version: 0.1.0
+license: MIT
+abstract: >-
+  Analysis of earthquake response at the Painter Street Overpass in Rio Dell,
+  California, using derived measurements from 22 earthquakes during 2012-2024
+  and National Bridge Inventory inspection records. The code computes response
+  features, fits the relationship between modal frequency and input amplitude,
+  and tests for persistent frequency shifts after amplitude adjustment.
+  Response departures do not establish earthquake damage or its absence.
+  The package starts from derived measurements and does not repeat waveform
+  processing or modal identification. Code is MIT-licensed; original
+  documentation, figures, and derived tables are CC BY 4.0, subject to source
+  notices.
+repository-code: "https://github.com/earthinversion/painter-street-analysis"
+keywords:
+  - structural health monitoring
+  - bridge response
+  - modal frequency
+  - earthquake engineering
+  - reproducible research

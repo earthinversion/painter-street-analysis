@@ -1,0 +1,560 @@
+{
+  "band_hz": [
+    1.0,
+    12.0
+  ],
+  "orders": [
+    8,
+    10,
+    12,
+    14,
+    16,
+    20
+  ],
+  "orders_by_predictor": {
+    "okid-era": [
+      10,
+      14,
+      20
+    ]
+  },
+  "horizon": 120,
+  "min_mpc": 0.5,
+  "min_damp": 0.002,
+  "max_damp": 0.2,
+  "tol_f": 0.01,
+  "tol_d": 0.1,
+  "min_repeats": 2,
+  "nperseg": 2048,
+  "prominence_db": 4.0,
+  "prominence_db_by_family": {
+    "spectral": 4.0,
+    "transfer": 0.5
+  },
+  "min_sep_hz": 0.4,
+  "rstf_damping": 0.05,
+  "reference_events": [
+    "nc73666231",
+    "ferndaleoffshore_08dec2016_us20007z6r",
+    "nc73667866",
+    "nc73890906",
+    "nc73943846",
+    "nc73821636",
+    "nc73351710",
+    "nc73714181"
+  ],
+  "reference_pga_g": [
+    0.0308691857056181,
+    0.0309702089908378,
+    0.0334939454349854,
+    0.0338726557998908,
+    0.0384916306791819,
+    0.0519554322831955,
+    0.0545943925805448,
+    0.0555301851294784
+  ],
+  "tracked_modes": {
+    "transverse": [
+      {
+        "reference_freq_hz": 3.338741695012344,
+        "reference_sd_hz": 0.06487666628576427,
+        "present_in_reference": 8,
+        "n_reference": 8,
+        "n_members": 15,
+        "seen_by_predictors": [
+          "fdd",
+          "fdd_local",
+          "fstf",
+          "srim"
+        ],
+        "families": [
+          "spectral",
+          "state_space",
+          "transfer"
+        ],
+        "name": "T1",
+        "window_hz": [
+          3.106125140590546,
+          3.571358249434142
+        ],
+        "half_width_hz": 0.23261655442179788
+      },
+      {
+        "reference_freq_hz": 3.9202830810668385,
+        "reference_sd_hz": 0.06816737702437853,
+        "present_in_reference": 8,
+        "n_reference": 8,
+        "n_members": 28,
+        "seen_by_predictors": [
+          "fdd",
+          "fdd_local",
+          "fstf",
+          "rstf",
+          "srim"
+        ],
+        "families": [
+          "spectral",
+          "state_space",
+          "transfer"
+        ],
+        "name": "T2",
+        "window_hz": [
+          3.779118063937602,
+          4.061448098196076
+        ],
+        "half_width_hz": 0.14116501712923668
+      },
+      {
+        "reference_freq_hz": 4.27319562388993,
+        "reference_sd_hz": 0.08218383479658896,
+        "present_in_reference": 7,
+        "n_reference": 8,
+        "n_members": 25,
+        "seen_by_predictors": [
+          "fdd",
+          "fdd_local",
+          "fstf",
+          "srim"
+        ],
+        "families": [
+          "spectral",
+          "state_space",
+          "transfer"
+        ],
+        "name": "T3",
+        "window_hz": [
+          4.132030606760694,
+          4.414360641019167
+        ],
+        "half_width_hz": 0.14116501712923668
+      },
+      {
+        "reference_freq_hz": 5.2252928223294095,
+        "reference_sd_hz": 0.11292228848196514,
+        "present_in_reference": 8,
+        "n_reference": 8,
+        "n_members": 20,
+        "seen_by_predictors": [
+          "fdd",
+          "fdd_local",
+          "fstf",
+          "srim"
+        ],
+        "families": [
+          "spectral",
+          "state_space",
+          "transfer"
+        ],
+        "name": "T4",
+        "window_hz": [
+          5.022141511585602,
+          5.428444133073217
+        ],
+        "half_width_hz": 0.20315131074380802
+      },
+      {
+        "reference_freq_hz": 5.7331710991889295,
+        "reference_sd_hz": 0.11864193525130345,
+        "present_in_reference": 7,
+        "n_reference": 8,
+        "n_members": 21,
+        "seen_by_predictors": [
+          "fdd",
+          "fdd_local",
+          "fstf",
+          "srim"
+        ],
+        "families": [
+          "spectral",
+          "state_space",
+          "transfer"
+        ],
+        "name": "T5",
+        "window_hz": [
+          5.530019788445122,
+          5.936322409932737
+        ],
+        "half_width_hz": 0.20315131074380802
+      },
+      {
+        "reference_freq_hz": 6.669184251644302,
+        "reference_sd_hz": 0.11225461415046822,
+        "present_in_reference": 7,
+        "n_reference": 8,
+        "n_members": 17,
+        "seen_by_predictors": [
+          "fdd",
+          "fdd_local",
+          "fstf",
+          "srim"
+        ],
+        "families": [
+          "spectral",
+          "state_space",
+          "transfer"
+        ],
+        "name": "T6",
+        "window_hz": [
+          6.294778990662153,
+          7.043589512626451
+        ],
+        "half_width_hz": 0.3744052609821491
+      }
+    ],
+    "vertical": [
+      {
+        "reference_freq_hz": 3.382945003487583,
+        "reference_sd_hz": 0.0716243542583744,
+        "present_in_reference": 8,
+        "n_reference": 8,
+        "n_members": 35,
+        "seen_by_predictors": [
+          "fdd",
+          "fdd_local",
+          "fstf",
+          "rstf",
+          "srim"
+        ],
+        "families": [
+          "spectral",
+          "state_space",
+          "transfer"
+        ],
+        "name": "V1",
+        "window_hz": [
+          3.0772288079779284,
+          3.6886611989972375
+        ],
+        "half_width_hz": 0.3057161955096547
+      },
+      {
+        "reference_freq_hz": 4.14723549226172,
+        "reference_sd_hz": 0.08555377021747647,
+        "present_in_reference": 8,
+        "n_reference": 8,
+        "n_members": 21,
+        "seen_by_predictors": [
+          "fdd",
+          "fdd_local",
+          "fstf",
+          "srim"
+        ],
+        "families": [
+          "spectral",
+          "state_space",
+          "transfer"
+        ],
+        "name": "V2",
+        "window_hz": [
+          3.901578017913534,
+          4.392892966609905
+        ],
+        "half_width_hz": 0.24565747434818555
+      },
+      {
+        "reference_freq_hz": 4.7613791781321835,
+        "reference_sd_hz": 0.09519361015313783,
+        "present_in_reference": 8,
+        "n_reference": 8,
+        "n_members": 32,
+        "seen_by_predictors": [
+          "fdd",
+          "fdd_local",
+          "fstf",
+          "srim"
+        ],
+        "families": [
+          "spectral",
+          "state_space",
+          "transfer"
+        ],
+        "name": "V3",
+        "window_hz": [
+          4.515721703783998,
+          5.007036652480369
+        ],
+        "half_width_hz": 0.24565747434818555
+      },
+      {
+        "reference_freq_hz": 5.886913569015787,
+        "reference_sd_hz": 0.13035480342694375,
+        "present_in_reference": 8,
+        "n_reference": 8,
+        "n_members": 36,
+        "seen_by_predictors": [
+          "fdd",
+          "fdd_local",
+          "fstf",
+          "srim"
+        ],
+        "families": [
+          "spectral",
+          "state_space",
+          "transfer"
+        ],
+        "name": "V4",
+        "window_hz": [
+          5.436699812662345,
+          6.337127325369229
+        ],
+        "half_width_hz": 0.4502137563534415
+      },
+      {
+        "reference_freq_hz": 7.137594563417082,
+        "reference_sd_hz": 0.1527956376802147,
+        "present_in_reference": 8,
+        "n_reference": 8,
+        "n_members": 36,
+        "seen_by_predictors": [
+          "fdd",
+          "fdd_local",
+          "fstf",
+          "srim"
+        ],
+        "families": [
+          "spectral",
+          "state_space",
+          "transfer"
+        ],
+        "name": "V5",
+        "window_hz": [
+          6.637322165656564,
+          7.6378669611776
+        ],
+        "half_width_hz": 0.5002723977605179
+      }
+    ],
+    "longitudinal": [
+      {
+        "reference_freq_hz": 3.4838773521783817,
+        "reference_sd_hz": 0.06954702368230417,
+        "present_in_reference": 7,
+        "n_reference": 8,
+        "n_members": 22,
+        "seen_by_predictors": [
+          "fdd",
+          "fdd_local",
+          "fstf",
+          "rstf",
+          "srim"
+        ],
+        "families": [
+          "spectral",
+          "state_space",
+          "transfer"
+        ],
+        "name": "L1",
+        "window_hz": [
+          3.256011833788761,
+          3.7117428705680022
+        ],
+        "half_width_hz": 0.22786551838962074
+      },
+      {
+        "reference_freq_hz": 4.0535411481524335,
+        "reference_sd_hz": 0.08371365880907215,
+        "present_in_reference": 8,
+        "n_reference": 8,
+        "n_members": 25,
+        "seen_by_predictors": [
+          "fdd",
+          "fdd_local",
+          "fstf",
+          "srim"
+        ],
+        "families": [
+          "spectral",
+          "state_space",
+          "transfer"
+        ],
+        "name": "L2",
+        "window_hz": [
+          3.825675629762813,
+          4.281406666542054
+        ],
+        "half_width_hz": 0.22786551838962074
+      },
+      {
+        "reference_freq_hz": 4.888067203869644,
+        "reference_sd_hz": 0.08542053809736112,
+        "present_in_reference": 7,
+        "n_reference": 8,
+        "n_members": 20,
+        "seen_by_predictors": [
+          "fdd",
+          "fdd_local",
+          "fstf",
+          "srim"
+        ],
+        "families": [
+          "spectral",
+          "state_space",
+          "transfer"
+        ],
+        "name": "L3",
+        "window_hz": [
+          4.6685521733564395,
+          5.107582234382849
+        ],
+        "half_width_hz": 0.2195150305132046
+      },
+      {
+        "reference_freq_hz": 5.436854780152656,
+        "reference_sd_hz": 0.12000637220944962,
+        "present_in_reference": 8,
+        "n_reference": 8,
+        "n_members": 30,
+        "seen_by_predictors": [
+          "fdd",
+          "fdd_local",
+          "fstf",
+          "srim"
+        ],
+        "families": [
+          "spectral",
+          "state_space",
+          "transfer"
+        ],
+        "name": "L4",
+        "window_hz": [
+          5.217339749639451,
+          5.65636981066586
+        ],
+        "half_width_hz": 0.2195150305132046
+      },
+      {
+        "reference_freq_hz": 6.260173348899107,
+        "reference_sd_hz": 0.07255799370197276,
+        "present_in_reference": 6,
+        "n_reference": 8,
+        "n_members": 20,
+        "seen_by_predictors": [
+          "fdd",
+          "fdd_local",
+          "fstf",
+          "srim"
+        ],
+        "families": [
+          "spectral",
+          "state_space",
+          "transfer"
+        ],
+        "name": "L5",
+        "window_hz": [
+          5.930845921400526,
+          6.589500776397688
+        ],
+        "half_width_hz": 0.3293274274985805
+      },
+      {
+        "reference_freq_hz": 7.416795925604183,
+        "reference_sd_hz": 0.1419348179742753,
+        "present_in_reference": 8,
+        "n_reference": 8,
+        "n_members": 41,
+        "seen_by_predictors": [
+          "fdd",
+          "fdd_local",
+          "fstf",
+          "rstf",
+          "srim"
+        ],
+        "families": [
+          "spectral",
+          "state_space",
+          "transfer"
+        ],
+        "name": "L6",
+        "window_hz": [
+          6.954146894922153,
+          7.879444956286213
+        ],
+        "half_width_hz": 0.4626490306820305
+      },
+      {
+        "reference_freq_hz": 8.877030279057873,
+        "reference_sd_hz": 0.19261503024732926,
+        "present_in_reference": 8,
+        "n_reference": 8,
+        "n_members": 26,
+        "seen_by_predictors": [
+          "fdd",
+          "fdd_local",
+          "fstf",
+          "srim"
+        ],
+        "families": [
+          "spectral",
+          "state_space",
+          "transfer"
+        ],
+        "name": "L7",
+        "window_hz": [
+          8.292936537676397,
+          9.46112402043935
+        ],
+        "half_width_hz": 0.5840937413814761
+      }
+    ]
+  },
+  "cluster_tol": 0.04,
+  "max_spread_frac": 0.05,
+  "min_distinct_predictors": 2,
+  "min_families": 2,
+  "require_family": "state_space",
+  "window_frac": 0.1,
+  "window_gap_frac": 0.4,
+  "window_rule_note": "half-width = min(0.10 x reference frequency, 0.40 x gap to the nearest neighbouring mode), fixed from the weak-motion reference events alone so that windows cannot overlap",
+  "direction_channels": {
+    "transverse": {
+      "input": [
+        3,
+        17,
+        20
+      ],
+      "output": [
+        4,
+        7,
+        9
+      ]
+    },
+    "vertical": {
+      "input": [
+        2,
+        16,
+        19
+      ],
+      "output": [
+        5,
+        6,
+        8,
+        10
+      ]
+    },
+    "longitudinal": {
+      "input": [
+        1,
+        15,
+        18
+      ],
+      "output": [
+        11
+      ]
+    }
+  },
+  "pair_channels": {
+    "transverse": [
+      17,
+      9
+    ],
+    "vertical": [
+      19,
+      6
+    ],
+    "longitudinal": [
+      18,
+      11
+    ]
+  },
+  "frozen_note": "05_evaluate.py reads this fixed configuration without event-by-event retuning. The reference events also define the mode windows and are not independent validation cases."
+}

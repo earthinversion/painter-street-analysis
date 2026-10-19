@@ -1,0 +1,12 @@
+{
+  "original_analysis_scripts": {
+    "03_events.py": "c355a2a14c06efdda00e9ec532ff8ab947667b2d76f52a8ed9af468fbf4eba93",
+    "05_evaluate.py": "cd435966034d900b65f19b13f7a017f0b8c1c82c353aea05c361dc0d56ce83fe",
+    "06_amplitude_model.py": "ba91d793b758be8d1c0f3a9df68d0b865e0bbf43effdf350d95a31cc41dcb1a3",
+    "10_changepoint.py": "d66aaa52de42274091eda2ea24c39195fb9e545c74a1ad8642767286891a9eef",
+    "14_inspection.py": "74c5c03cbb73b5c408364364e6489830fb7b7b087785a90a1e810da0dd24b083",
+    "15_hmc_novelty.py": "5a46d5877214a4f405532537bdecb4a81092f002a9674f5dcf660b7190cbea2a",
+    "22_fig_bridge_hmc.py": "4a574bbc4680431641cf189811db2cdd5636cda6aee0cc0d7212553bdd4f9ea9"
+  },
+  "description": "Hashes identify the source analysis used to prepare this focused release. The original scripts and waveform workflow are not distributed."
+}
