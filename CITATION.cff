@@ -1,14 +1,33 @@
 cff-version: 1.2.0
-message: "Please cite this analysis and the original data and method sources."
+message: >-
+  Proposed citation for author confirmation; this candidate is not a Zenodo
+  publication. Please also cite the original data and method sources.
 title: "Painter Street Overpass response analysis"
 type: software
 authors:
   - family-names: Kumar
     given-names: Utpal
-version: 0.1.0-rc1
+    affiliation: "Berkeley Seismological Laboratory, University of California, Berkeley"
+  - family-names: Mosalam
+    given-names: Khalid M.
+    affiliation: "Department of Civil and Environmental Engineering and Pacific Earthquake Engineering Research Center, University of California, Berkeley"
+version: 0.1.0-rc2
 license: MIT
 abstract: >-
-  A derived-data example of response-feature screening, amplitude-dependent
-  modal frequency, and inspection history at Painter Street Overpass.
-  Release candidate for review; no DOI has been assigned.
+  Reproducible analysis of derived response measurements for 22 earthquakes
+  recorded at the Painter Street Overpass during 2012-2024, with National
+  Bridge Inventory inspection records. Reproduces response-feature screening,
+  amplitude-dependent modal frequencies, and event-level persistent-shift
+  tests. Response departures do not establish earthquake damage or its absence.
+  This package starts from distributed derived measurements; it does not rerun
+  waveform processing or modal identification. Code is MIT-licensed; original
+  documentation, figures, and derived tables are CC BY 4.0, subject to source
+  notices. Proposed author metadata await confirmation; no Zenodo DOI has been
+  assigned.
 repository-code: "https://github.com/earthinversion/painter-street-analysis"
+keywords:
+  - structural health monitoring
+  - bridge response
+  - modal frequency
+  - earthquake engineering
+  - reproducible research

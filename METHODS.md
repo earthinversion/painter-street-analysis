@@ -12,7 +12,7 @@ Processed CSMIP/COSMOS V2 accelerations were read with their declared units and 
 | Transverse | 3, 17, 20 | 4, 7, 9 |
 | Vertical | 2, 16, 19 | 5, 6, 8, 10 |
 
-Input channels are at the middle bent near ground level and on the ground near the abutments. Response channels are on the deck and at the top of the middle-bent column. Missing channels are listed by event. The separate free-field station CE89462 is not used as the amplitude regressor in this release.
+Input channels are at the middle bent near ground level and on the ground near the abutments. Response channels are on the deck and at the top of the middle-bent column. Missing channels are listed by event. Of the 22 events, 13 have 17 recorded channels, eight have 16, and one has 15; fixed mappings do not imply an identical available sensor set. The separate free-field station CE89462 is not used as the amplitude regressor in this release.
 
 Peak input is the maximum absolute acceleration over the available input channels, including all three directions. It is an excitation proxy measured near the structure, not a claim of free-field motion. Peak structural response, used for reference selection, is the maximum over response channels.
 
@@ -36,7 +36,7 @@ For each mode with at least eight observations, weighted least squares fits
 
 `PGA_ref` is the geometric mean of the distinct input amplitudes in the modal table. Relative uncertainty is the across-method frequency spread divided by the frequency, with a floor of 0.002; missing spreads use the overall median spread. Coefficient covariance is multiplied by the larger of one and reduced chi-square. A per-mode residual discrepancy is estimated from residual variance beyond the assigned measurement variance.
 
-The displayed trend is the fitted relationship across the observed amplitude range. Its approximate 95% band includes intercept–slope covariance. The original proposal figure omitted that covariance when drawing its approximate band; the release retains the fitted coefficients and reports this display correction explicitly. The band is conditional on the fitted model and does not propagate uncertainty in reference selection, upstream modal estimation, or shared predictor errors. It is not a prediction interval for a future earthquake or a damage probability.
+The displayed trend is the fitted relationship across the observed amplitude range. The input-PGA regressor does not account for shaking duration or frequency content, and contributing methods vary across observations (one to five). These controls do not establish identical excitation or independently validate the upstream modal identification. Its approximate 95% band includes intercept–slope covariance. The original proposal figure omitted that covariance when drawing its approximate band; the release retains the fitted coefficients and reports this display correction explicitly. The band is conditional on the fitted model and does not propagate uncertainty in reference selection, upstream modal estimation, or shared predictor errors. It is not a prediction interval for a future earthquake or a damage probability.
 
 ## Persistent-shift assessment
 
@@ -48,7 +48,7 @@ The original analysis used a Šidák threshold of 3.0307 for absolute z, with ze
 
 The identity match uses Caltrans bridge 4-236, NBI structure `04 0236`, location `01-HUM-101-R52.89`, and facility `PAINTER ST` over US Highway 101. FHWA California NBI files for 2012–2025 supply deck, superstructure, and substructure condition ratings (items 58–60). `inspection_sources.json` records the source URLs and original file checksums.
 
-The plot uses inspection date, not file publication year. For repeated inspection dates, it retains the latest published rating and compares it with the first published value. A hollow symbol marks a changed value for that component. For example, the July 2021 substructure rating was revised from 7 to 6 without a new inspection date. The deck rating fell from 8 in 2015 to 5 in 2019 and was 7 in 2023; the substructure fell from 8 in 2015 to 5 in 2023. These records do not identify earthquake causation. A missing reconstruction entry does not establish that no intervention occurred.
+The plot uses inspection date, not file publication year. For repeated inspection dates, it retains the latest published rating and compares it with the first published value. A hollow symbol marks a changed value for that component. For example, the July 2021 substructure rating was revised from 7 to 6 without a new inspection date. The deck rating fell from 8 in 2015 to 5 in 2019 and was 7 in 2023; the substructure fell from 8 in 2015 to 5 in 2023. These records do not identify earthquake causation. Missing or incomplete inspections are not undamaged labels, and no classification metrics are computed from these ratings. Cases without sufficient independent damage evidence remain unresolved; they would need to be reported separately in a damage-validation study. A missing reconstruction entry does not establish that no intervention occurred.
 
 ## Data dictionary
 
