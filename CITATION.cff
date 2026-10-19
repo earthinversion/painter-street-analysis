@@ -1,7 +1,5 @@
 cff-version: 1.2.0
-message: >-
-  Proposed citation for author confirmation; this candidate is not a Zenodo
-  publication. Please also cite the original data and method sources.
+message: "Please cite this work and the original data and method sources."
 title: "Painter Street Overpass response analysis"
 type: software
 authors:
@@ -11,7 +9,7 @@ authors:
   - family-names: Mosalam
     given-names: Khalid M.
     affiliation: "Department of Civil and Environmental Engineering and Pacific Earthquake Engineering Research Center, University of California, Berkeley"
-version: 0.1.0-rc2
+version: 0.1.0
 license: MIT
 abstract: >-
   Reproducible analysis of derived response measurements for 22 earthquakes
@@ -22,8 +20,7 @@ abstract: >-
   This package starts from distributed derived measurements; it does not rerun
   waveform processing or modal identification. Code is MIT-licensed; original
   documentation, figures, and derived tables are CC BY 4.0, subject to source
-  notices. Proposed author metadata await confirmation; no Zenodo DOI has been
-  assigned.
+  notices.
 repository-code: "https://github.com/earthinversion/painter-street-analysis"
 keywords:
   - structural health monitoring

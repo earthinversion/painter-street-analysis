@@ -1,8 +1,8 @@
 # Changes
 
-## 0.1.0-rc2 (unreleased)
+## 0.1.0 (unreleased)
 
-Addresses the October 18 review: makes reference selection, modal-comparison controls, remaining excitation effects, and uncertain inspection evidence explicit. Prepares the proposed Kumar–Mosalam citation, with final metadata confirmation pending. Rechecks the locked-environment reproduction and proposal alignment. Distributed measurements, numerical algorithms, saved results, and the three-panel repository figure are unchanged.
+Clarifies reference selection, modal-comparison controls, remaining excitation effects, and uncertain inspection evidence. Adds Khalid M. Mosalam to the citation metadata. Verifies reproduction with the pinned dependencies and agreement with the proposal. Distributed measurements, numerical algorithms, saved results, and the repository figure are unchanged.
 
 ## 0.1.0-rc1
 
